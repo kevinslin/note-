@@ -14,19 +14,19 @@
   desc: History Notes
   namespace: true
   children:
-    - I
-    - II
-    - III
+    - Form 1
+    - Form 2
+    - Form 3
 
-- id: I
+- id: Form 1
   title: Form 1
   namespace: true
 
-- id: II
+- id: Form 2
   title: Form 2
   namespace: true
 
-- id: III
+- id: Form 3
   title: Form 3
   namespace: true
 
@@ -40,9 +40,9 @@
   desc: Geometry Notes
   namespace: true
   children:
-    - I
-    - II
-    - III
+    - 初一
+    - 初二
+    - 初三
 
 - id: chem
   title: Chemistry 

@@ -1,4 +1,4 @@
 site:
     siteHierarchies:
-        - root
+        - note
     siteRootDir: docs

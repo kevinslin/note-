@@ -4,3 +4,11 @@ gem "github-pages", group: :jekyll_plugins
 gem "jekyll"
 # TODO: use official gem
 #gem "just-the-docs", path: "/Users/kevinlin/projects/dendronv2/dendron-just-the-docs/"
+#
+const mathBlocks = document.querySelectorAll('script[type^="math/tex"]');
+Array.from(mathBlocks).forEach((el) => {
+  const tex = el.textContent.replace("% <![CDATA[", "").replace("%]]>", "");
+  el.outerHTML = window.katex.renderToString(tex, {
+    displayMode: el.type === "math/tex; mode=display",
+  });
+});

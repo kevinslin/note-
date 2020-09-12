@@ -1,0 +1,55 @@
+- id: a
+  title: Academics 
+  desc: Academic related stuff
+  parent: root 
+  children: 
+    - phy
+    - chem
+    - bio
+    - geo
+    - his
+  
+- id: his
+  title: History 
+  desc: History Notes
+  namespace: true
+  children:
+    - I
+    - II
+    - III
+
+- id: I
+  title: Form 1
+  namespace: true
+
+- id: II
+  title: Form 2
+  namespace: true
+
+- id: III
+  title: Form 3
+  namespace: true
+
+- id: phy
+  title: Physics
+  desc: Physics Notes
+  namespace: true
+
+- id: geo
+  title: Geometry
+  desc: Geometry Notes
+  namespace: true
+  children:
+    - I
+    - II
+    - III
+
+- id: chem
+  title: Chemistry 
+  desc: Chemistry Notes
+  namespace: true
+  
+- id: bio
+  title: Biology
+  desc: Biology Notes
+  namespace: true

@@ -1,0 +1,24 @@
+- id: r
+  title: Reference Notes 
+  parent: root
+  children:
+    - book
+    - pod
+    - vid
+    - a
+    - m
+  
+- id: book
+  namespace: true
+
+- id: pod
+  namespace: true
+
+- id: vid
+  namespace: true
+
+- id: a
+  namespace: true
+
+- id: m
+  namespace: true

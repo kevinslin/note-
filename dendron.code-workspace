@@ -8,7 +8,7 @@
         "dendron.rootDir": ".",
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
-        "workbench.colorTheme": "GitHub Light",
+        "workbench.colorTheme": "SynthWave '84",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
@@ -18,13 +18,7 @@
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
-        "editor.tabCompletion": "on",
-        "[markdown]": {
-            "editor.quickSuggestions": true,
-            "editor.wordBasedSuggestions": false,
-            "editor.tabSize": 2,
-            "editor.suggest.showSnippets": false
-        }
+        "editor.tabCompletion": "on"
     },
     "extensions": {
         "recommendations": [

@@ -1,0 +1,22 @@
+- id: prod
+  title: Productivity
+  desc: Productivity Stuff
+  parent: root
+  namespace: true 
+
+- id: prog
+  title: Programming
+  desc: Everything related to programming/coding
+  parent: root
+  children: 
+
+- id: p
+  title: People
+  namespace: true
+  parent: root
+
+- id: d
+  title: Debate Notes
+  namespace: true
+  parent: root
+  children:   

@@ -10,20 +10,20 @@
     "scope": "markdown",
     "body": "### "
   },
-  "project": {
-    "prefix": "project",
-    "body": [
-      "## Goals",
-      "",
-      "## Details",
-      "",
-      "## Discussions",
-      "",
-      "## Tasks",
-      "",
-      "## Release Notes",
-      "",
-    ],
-    "description": ""
-  }
+  "h2":{
+    "prefix": "h2",
+    "scope": "markdown",
+    "body": "## "
+  },
+	"schema": {
+		"prefix": "schema",
+		"body": [
+			"- id:",
+			"  title:",
+			"  desc:",
+      "  namespace:",
+			"  parent: root",      
+      "  children:"
+    ]
+	}
 }

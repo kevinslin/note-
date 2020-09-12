@@ -1,0 +1,16 @@
+- id: meta
+  title: Metadata
+  parent: root
+  children:
+    - author
+    - date
+    - media
+
+- id: author
+  namespace: true
+
+- id: date
+  namespace: true
+
+- id: media
+  namespace: true
